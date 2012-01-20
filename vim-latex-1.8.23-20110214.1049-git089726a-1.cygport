@@ -1,0 +1,11 @@
+inherit vim
+
+HOMEPAGE="http://vim-latex.sourceforge.net/"
+SRC_URI="mirror://sourceforge/vim-latex/${P}.tar.gz"
+
+src_compile() { :; }
+
+src_install() {
+	cd ${S}
+	cyginstall PREFIX=/usr VIMDIR=${VIMFILES}
+}

@@ -1,0 +1,8 @@
+category: TeX
+requires: texlive texlive-collection-latexrecommended vim-common
+sdesc: "Vim LaTeX tools"
+ldesc: "Vim-LaTeX attempts to provide a comprehensive set of tools to 
+view, edit and compile LaTeX documents without needing to ever quit Vim. 
+Together, they provide tools starting from macros to speed up editing 
+LaTeX documents to compiling tex files to forward searching .dvi 
+documents."
