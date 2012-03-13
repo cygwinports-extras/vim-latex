@@ -1,5 +1,5 @@
-category: TeX
-requires: texlive texlive-collection-latexrecommended vim-common
+category: Editors
+requires: ctags python texlive texlive-collection-latex texlive-collection-latexrecommended vim-common
 sdesc: "Vim LaTeX tools"
 ldesc: "Vim-LaTeX attempts to provide a comprehensive set of tools to 
 view, edit and compile LaTeX documents without needing to ever quit Vim. 
